@@ -1,0 +1,30 @@
+// program for grading system
+#include <iostream>
+using namespace std;
+int main() {
+    int math,eng,kis,sci,french,avg;
+cout<<"Enter math,eng,kis,sci and french marks"<<endl;
+cin>>math>>eng>>kis>>sci>>french;
+avg =(math+eng+kis+sci+french)/5;
+if(avg >= 70)
+{
+    cout<<"Grade A";
+}
+else if(avg >= 60)
+{
+    cout<<"Grade B";
+}
+ else if(avg >= 50)
+{
+    cout<<"Grade C";
+}
+ else if(avg >= 40)
+{
+    cout<<"Grade D";
+}
+else if(avg < 40)
+{
+    cout<<"Grade E";
+}
+    return 0;
+}
