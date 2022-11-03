@@ -1,4 +1,4 @@
-// program for 3d
+// program for 3d array
 #include <iostream>
 using namespace std;
 int main()
