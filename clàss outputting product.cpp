@@ -21,4 +21,4 @@ int main() {
   cout << "The product is "<<addition1.product();
   return 0;
 }
-}
+
