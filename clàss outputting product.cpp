@@ -1,4 +1,4 @@
-
+//product to output product 
 	#include <iostream>
 using namespace std;
 class addition{
